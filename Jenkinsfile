@@ -21,7 +21,7 @@ pipeline {
          branch 'master'
       }
       steps {
-         echo "TODO - build and push image"
+         echo "TODO - build and push image maybe"
       }
     }
   }
