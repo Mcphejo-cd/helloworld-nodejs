@@ -9,7 +9,7 @@ app.set('views', './views');
 console.log(process.env.BUILD_NUMBER)
 
 app.get('/', function (req, res) {
-  console.log('Hello World request.');
+  console.log('Hello Worlld request.');
   res.render('index', { title: 'Hello', message: 'Hello Worlld!', 
         name: process.env.COMMIT_AUTHOR,
         context: context, 
